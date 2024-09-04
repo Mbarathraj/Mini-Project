@@ -1,0 +1,39 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+}
+.pic{
+    width: 100%;
+    position: relative;
+    height: 65vh;
+    transition: 1s;
+}
+.pic .intro{
+  position: absolute;
+  margin-bottom: 50px;
+}
+.pic #login{
+    position: absolute;
+    bottom: 50px;
+}
+.pic img{
+    width: 100%;
+    margin-top: 5vh;
+    height: 75%;
+    object-fit: contain;
+}
+.details{
+    transition: 1s;
+    height: 50vh;
+    margin-top: 5vh;
+}
+.slidep, .slidel{
+    transform: translateX(-125%);
+}
